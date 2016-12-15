@@ -1,0 +1,71 @@
+#grid-overlay {
+  &.grid-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 900;
+
+    .container {
+      height: 100%;
+    }
+
+    .row {
+      height: 100%;
+    }
+
+    .grid-column{
+      position: relative;
+      height: 100%;
+      border-right: 1px solid lightgray;
+      border-left: 1px solid lightgray;
+
+      .grid-show{
+        height: 100%;
+        width: 100%;
+        background: rgba(0,0,0,0.3);
+      }
+    }
+  }
+}
+
+
+#grid-overlay-controls{
+  position: absolute;
+  background: white;
+  left: 1px;
+  top: 50px;
+  width: 200px;
+  border: solid 1px darkgray;
+  z-index: 1001;
+
+  .control-header{
+    position: relative;
+    border-bottom: 1px solid lightgray;
+    padding-left: 15px;
+    margin-bottom: 15px;
+
+    button {
+      &.close {
+        position: absolute;
+        top: 0;
+        right: 7px;
+      }
+    }
+  }
+
+  .control-content{
+    background: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
+
+  .control-buttons{
+    background: white;
+    border-top: solid 1px lightgray;
+    padding: 7px 15px 15px 15px;
+  }
+}
+

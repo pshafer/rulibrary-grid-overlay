@@ -1,0 +1,28 @@
+{
+  "name": "rulibrary-grid-overlay",
+  "version": "1.0.0",
+  "description": "Grid Overlay Bookmarklet for Rowan Univeristy Library Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cssmin": "^0.4.3",
+    "gulp": "^3.9.1",
+    "gulp-bookmarklet": "^1.0.0",
+    "gulp-clean-css": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-eslint": "^3.0.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.0.0",
+    "gulp-shell": "^0.5.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.11",
+    "rename": "^1.0.3"
+  }
+}
