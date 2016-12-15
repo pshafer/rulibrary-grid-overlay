@@ -12,7 +12,7 @@
 
             var stylesheet = $('<link>');
             stylesheet.attr('rel', 'stylesheet');
-            stylesheet.attr('href', 'http://grid-overlay.local/css/rulibrary-grid-overlay.css');
+            stylesheet.attr('href', 'https://pshafer.github.io/rulibrary-grid-overlay/css/rulibrary-grid-overlay.css');
 
             $('head').append(stylesheet);
 
