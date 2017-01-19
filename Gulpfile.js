@@ -63,10 +63,4 @@ gulp.task('compile:js', function(){
 });
 
 
-
-
-
-
-
-
-gulp.task('compile', ['compile:scss', 'minify-css']);
+gulp.task('compile', ['compile:scss', 'minify-css', 'compile:js']);
